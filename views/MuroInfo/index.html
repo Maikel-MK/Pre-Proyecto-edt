@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muro de Informacion</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="website icon" href="../../img/favicon_io/favicon-16x16.png" type="png">
+
+</head>
+<body>
+    
+    <div id="Muro" class="flex"></div>
+
+    <!-- Modal para mostrar contenido extenso -->
+    <div id="articleModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="float-right cursor-pointer">&times;</span>
+            <h3 id="modalTitle" class="font-bold text-lg"></h3>
+            <p id="modalContent"></p>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="../components/MuroInfo.js"></script>
+    <script>loadArticlesPage();  </script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículos Publicados - Condominio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <div id="Muro" class="flex"></div>
+
+    <!-- Modal para mostrar contenido extenso -->
+    <div id="articleModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="float-right cursor-pointer">&times;</span>
+            <h3 id="modalTitle" class="font-bold text-lg"></h3>
+            <p id="modalContent"></p>
+        </div>
+    </div>
+
+    <script src="../components/MuroInfo.js"></script>
+    <script>loadArticlesPage();  </script>
+</body>
+</html>
